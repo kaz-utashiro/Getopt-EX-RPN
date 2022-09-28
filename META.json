@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "RPN calculation module for Getopt::EX command option",
    "author" : [
-      "Kazumasa Utashiro <kaz@utashiro.com>"
+      "Kazumasa Utashiro"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.1.19, CPAN::Meta::Converter version 2.150010",
@@ -42,7 +42,9 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "Math::RPN" : "0",
+            "Term::ReadKey" : "0",
+            "perl" : "v5.14.0"
          }
       },
       "test" : {
@@ -52,8 +54,22 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kaz-utashiro/Getopt-EX-RPN/issues"
+      },
+      "homepage" : "https://github.com/kaz-utashiro/Getopt-EX-RPN",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/kaz-utashiro/Getopt-EX-RPN.git",
+         "web" : "https://github.com/kaz-utashiro/Getopt-EX-RPN"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:UTASHIRO",
+   "x_contributors" : [
+      "Kazumasa Utashiro <kaz@utashiro.com>"
+   ],
    "x_serialization_backend" : "JSON::PP version 4.07",
    "x_static_install" : 1
 }
